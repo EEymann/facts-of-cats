@@ -1,0 +1,18 @@
+
+
+#initially-showing {
+  display: none;
+}
+
+#showing-pictures {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: violet;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
