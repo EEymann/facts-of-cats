@@ -16,3 +16,21 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+#click-pictures {
+  cursor: pointer;
+  color: violet;
+}
+
+#click-pictures:hover {
+  text-decoration: underline;
+}
+
+#hide-pictures {
+  cursor: pointer;
+  color: violet;
+}
+
+#hide-pictures:hover {
+  text-decoration: underline;
+}

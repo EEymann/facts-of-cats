@@ -6,7 +6,14 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $("#click-pictures").click(function() {
+    $("#hidden-pictures").slideToggle();
+    $("#showing-pictures").slideToggle();
+  });
+});
+
+$(document).ready(function() {
+  $("#hide-pictures").click(function() {
     $("#hidden-pictures").slideToggle();
     $("#showing-pictures").slideToggle();
   });
